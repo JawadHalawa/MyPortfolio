@@ -31,10 +31,11 @@ export function Skills() {
         viewport={{ once: true }}
       >
         <h2 className="text-3xl font-bold mb-12 text-center">Skills</h2>
-        <Tabs defaultValue="telecom" className="max-w-3xl mx-auto">
+        <Tabs defaultValue="webdev" className="max-w-3xl mx-auto">
           <TabsList className="grid w-full grid-cols-2">
+          <TabsTrigger value="webdev">Web Development</TabsTrigger>
+
             <TabsTrigger value="telecom">Telecommunications</TabsTrigger>
-            <TabsTrigger value="webdev">Web Development</TabsTrigger>
           </TabsList>
           <TabsContent value="telecom">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">

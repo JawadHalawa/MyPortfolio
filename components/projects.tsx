@@ -7,8 +7,8 @@ import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import storeImage from '../public/jawad-store.jpg';
-import hallBookingImage from '../public/hall booking.jpg';
-import rfImage from "../public/rf manager.jpg";
+import hallBookingImage from '../public/hall-booking.jpg';
+import rfImage from "../public/rf-manager.jpg";
 const projects = [
   {
     title: "E-Commerce Platform Jawad store ",
@@ -20,15 +20,6 @@ const projects = [
     type: "webdev",
   },
   {
-    title: "sop for RF Planning Tool",
-    description: "Standard Operating Procedures for radio system to maintenance and check the stations",
-    tags: ["TypeScript 95.3%", "JavaScript 3.3%", "HTML 1.2%", "CSS 0.2%"],
-    image: rfImage,
-    demoUrl: "https://sop4rf.netlify.app/",
-    githubUrl: "https://github.com/JawadHalawa/sop4rf.git",
-    type: "webdev for telecom",
-  },
-  {
     title: "hall booking Platform",
     description: "Our App Explores Great Halls & Services In Bahrain In Jordan",
     image: hallBookingImage,
@@ -36,6 +27,15 @@ const projects = [
     demoUrl: "https://hallbooking.aswadweb.net/",
     githubUrl: "https://hallbooking.aswadweb.net/",
     type: "webdev",
+  },
+  {
+    title: "sop for RF Planning Tool",
+    description: "Standard Operating Procedures for radio system to maintenance and check the stations",
+    tags: ["TypeScript 95.3%", "JavaScript 3.3%", "HTML 1.2%", "CSS 0.2%"],
+    image: rfImage,
+    demoUrl: "https://sop4rf.netlify.app/",
+    githubUrl: "https://github.com/JawadHalawa/sop4rf.git",
+    type: "webdev for telecom",
   },
   {
     title: "jawad academy Management System",

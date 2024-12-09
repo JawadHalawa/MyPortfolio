@@ -14,20 +14,20 @@ export function About() {
       >
         <h2 className="text-3xl font-bold mb-12 text-center">About Me</h2>
         <div className="grid md:grid-cols-2 gap-8">
+        <Card className="p-6">
+            <h3 className="text-xl font-semibold mb-4">Web Development Journey</h3>
+            <p className="text-muted-foreground">
+              Passionate about creating exceptional web experiences, I leverage modern
+              technologies and best practices to build scalable, performant applications
+              that solve real-world problems.
+            </p>
+          </Card>
           <Card className="p-6">
             <h3 className="text-xl font-semibold mb-4">Telecommunications Background</h3>
             <p className="text-muted-foreground">
               With extensive experience in network infrastructure, RF systems, and
               telecommunications protocols, I specialize in designing and implementing
               robust communication solutions that connect people and systems.
-            </p>
-          </Card>
-          <Card className="p-6">
-            <h3 className="text-xl font-semibold mb-4">Web Development Journey</h3>
-            <p className="text-muted-foreground">
-              Passionate about creating exceptional web experiences, I leverage modern
-              technologies and best practices to build scalable, performant applications
-              that solve real-world problems.
             </p>
           </Card>
         </div>

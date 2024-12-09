@@ -48,7 +48,7 @@ export function Contact() {
           title: "✅ Message Sent Successfully!",
           description: "Thank you for reaching out! I'll review your message and get back to you as soon as possible. Have a great day! 😊",
           variant: "default",
-          duration: 5000, // Show for 5 seconds
+          duration: 5000,
         });
         form.reset();
       } else {
@@ -60,7 +60,7 @@ export function Contact() {
         variant: "destructive",
         title: "❌ Message Not Sent",
         description: "Sorry, there was a problem sending your message. Please try again or contact me through social media.",
-        duration: 5000, // Show for 5 seconds
+        duration: 5000,
       });
     }
   };
@@ -80,7 +80,7 @@ export function Contact() {
         <div className="flex justify-center gap-4 mb-12">
           <Button variant="outline" size="icon" asChild>
             <a
-              href="https://www.linkedin.com/in/your-linkedin"
+              href="https://www.linkedin.com/in/jawadhalawa"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-600"
@@ -90,7 +90,7 @@ export function Contact() {
           </Button>
           <Button variant="outline" size="icon" asChild>
             <a
-              href="https://t.me/your-telegram"
+              href="https://t.me/+963991882334"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-500"
@@ -100,7 +100,7 @@ export function Contact() {
           </Button>
           <Button variant="outline" size="icon" asChild>
             <a
-              href="https://wa.me/your-phone-number"
+              href="https://wa.me/+963991882334"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-green-600"
