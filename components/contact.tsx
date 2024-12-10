@@ -48,7 +48,7 @@ export function Contact() {
           title: "✅ Message Sent Successfully!",
           description: "Thank you for reaching out! I'll review your message and get back to you as soon as possible. Have a great day! 😊",
           variant: "default",
-          duration: 5000,
+          duration: 10000,
         });
         form.reset();
       } else {
@@ -60,7 +60,7 @@ export function Contact() {
         variant: "destructive",
         title: "❌ Message Not Sent",
         description: "Sorry, there was a problem sending your message. Please try again or contact me through social media.",
-        duration: 5000,
+        duration: 10000,
       });
     }
   };
