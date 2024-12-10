@@ -17,7 +17,7 @@ export function Hero() {
             transition={{ duration: 0.5 }}
             className="text-center lg:text-left"
           >
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold mb-4 md:mb-6">
             Web Developer
               <span className="text-primary block mt-2">&</span>
               Telecommunications Engineer
