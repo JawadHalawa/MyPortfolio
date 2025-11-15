@@ -68,7 +68,7 @@ const projects = [
     title: "water bottling plant project",
     description: "A drinking water bottling plant in Quneitra ",
     image: "/wbpp.jpg",
-    tags: ["project management", "SARC","for all project files on demanda"],
+    tags: ["project management", "SARC","for all project files on demand"],
     type: "webdev for management",
     driveUrl: "https://drive.google.com/file/d/1VLPjZz3bX6MSMXEUpvjG6TYOYD0OMa3n/view?usp=sharing",
   },
