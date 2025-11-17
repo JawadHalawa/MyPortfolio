@@ -31,7 +31,7 @@ const projects = [
   },
        {
     title: "Association Management System",
-    description: "system in web app for management the association and its data and activities ",
+    description: "system as web app for management the association and its data and activities ",
     image: "/ad.png",
     tags: ["ready to deploy","deploy on demand"],
     type: "webdev for management",
@@ -39,7 +39,7 @@ const projects = [
   },
    {
     title: "Hospital Management System",
-    description: "system in web app for management the hospital and its data and operations",
+    description: "system as web app for management the hospital and its data and operations",
     image: "/hm.png",
     tags: ["ready to deploy","deploy on demand"],
     type: "webdev for management",
