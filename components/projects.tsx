@@ -29,6 +29,22 @@ const projects = [
     driveUrl:"https://drive.google.com/file/d/12Zv2KSahjSFV0B2E-VLOcVquFSCtz2mH/view?usp=sharing",
 
   },
+       {
+    title: "Association Management System",
+    description: "system in web app for management the association and its data and activities ",
+    image: "/ad.png",
+    tags: ["ready to deploy","deploy on demand"],
+    type: "webdev for management",
+    driveUrl:"https://drive.google.com/file/d/1SnsiVNK2eufmgaIMjXNz4XxqsVpbaqoL/view?usp=sharing",
+  },
+   {
+    title: "Hospital Management System",
+    description: "system in web app for management the hospital and its data and operations",
+    image: "/hm.png",
+    tags: ["ready to deploy","deploy on demand"],
+    type: "webdev for management",
+    driveUrl:"https://drive.google.com/file/d/1xzgCO4AeJ-bfEBNrgNSyVjkoCRVKZVcE/view?usp=sharing",
+  },
   {
     title: "E-Commerce Platform Jawad store",
     description: "Jawad E-commerce Site Explore our products and enjoy shopping!",
