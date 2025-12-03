@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 
 export function Hero() {
   const [textIndex, setTextIndex] = useState(0);
-  const roles = ["Project Manager", "Web Developer", "Communications Engineer"];
+  const roles = ["Project Manager", "Web Developer", "Telecommunication Engineer"];
 
   useEffect(() => {
     const interval = setInterval(() => {
