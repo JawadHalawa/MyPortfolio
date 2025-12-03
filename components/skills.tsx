@@ -77,7 +77,7 @@ export function Skills() {
             </TabsTrigger>
             <TabsTrigger value="telecom" className="flex-col gap-1 py-3 px-2 data-[state=active]:bg-background">
               <Wifi className="h-5 w-5" />
-              <span className="text-xs sm:text-sm">Communications</span>
+              <span className="text-xs sm:text-sm">Telecommunications</span>
             </TabsTrigger>
           </TabsList>
           
