@@ -83,7 +83,7 @@ export function Certifications() {
       case "webdev":
         return "Web Development";
       case "telecom":
-        return "Communications";
+        return "Telecommunications";
       case "management":
         return "Management";
       default:
@@ -125,7 +125,7 @@ export function Certifications() {
             className={`px-4 py-2 rounded-md transition-all text-sm ${filter === "telecom" ? "bg-background shadow-sm" : "bg-muted hover:bg-muted/80"}`}
             onClick={() => setFilter("telecom")}
           >
-            Communications
+            Telecommunications
           </button>
         </div>
         
@@ -203,4 +203,5 @@ export function Certifications() {
       </motion.div>
     </section>
   );
+
 }
