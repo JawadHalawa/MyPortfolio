@@ -9,11 +9,9 @@ import { motion} from "framer-motion";
 
 const navItems = [
   { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
+   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
   { name: "Certifications", href: "#certifications" },
-  { name: "Contact", href: "#contact" },
 ];
 
 export function Navigation() {
