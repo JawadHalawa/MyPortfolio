@@ -9,47 +9,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 const certifications = [
-  {
-    title: "Fundamentals of Financial Management",
-    issuer: "disasterready.org",
-    date: "2025",
-    credentialId: "",
-    image: "/FM.JPG",
-    tags: ["NGOs", "Financial Management"],
-    credentialUrl: "https://drive.google.com/file/d/1CHUXkN5TmM1CbdF6uHbTFDdBgx7o3Ncv/view?usp=sharing",
-    type: "management",
-  },
-  {
-    title: "human resources in emergencies",
-    issuer: "ifrc.org",
-    date: "2025",
-    credentialId: "TP1-S14-0092",
-    image: "/hr.JPG",
-    tags: ["NGOs", "Human Resources"],
-    credentialUrl: "https://drive.google.com/file/d/1ETenGJlrPp8bg-71kCMYfTazh_b58gki/view?usp=sharing",
-    type: "management",
-  },
-  {
-    title: "Project Management for CSOs Workshop Completion Certificate",
-    issuer: "CEP UNDP",
-    date: "2024",
-    credentialId: "VP24556604B-29295",
-    image: "/pm.jpg",
-    tags: ["projects management", "CSOs","UNDP"],
-    credentialUrl: "https://drive.google.com/file/d/1J3En9S-jgsfDEXKGrJ94vkz49_bMbgCO/view?usp=sharing",
-    type: "management",
-  },
-  {
-    title: "full stack web development",
-    issuer: "barmej.com",
-    date: "2020",
-    credentialId: "ptFLZpE",
-    image: "/full stack barmej.png",
-    tags: ["programming", "Web development"],
-    credentialUrl: "https://brmj.io/verify/ptFLZpE",
-    type: "webdev",
-  },
-    {
+     {
     title: "front end web development",
     issuer: "udacity.com",
     date: "2020",
@@ -205,3 +165,4 @@ export function Certifications() {
   );
 
 }
+
