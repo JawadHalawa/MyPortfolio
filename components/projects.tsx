@@ -72,12 +72,7 @@ export function Projects() {
             All Projects
           </button>
           
-          <button
-            className={`px-4 py-2 rounded-md transition-all text-sm ${filter === "webdev for management" ? "bg-background shadow-sm" : "bg-muted hover:bg-muted/80"}`}
-            onClick={() => setFilter("webdev for management")}
-          >
-            Management
-          </button>
+     
           <button
             className={`px-4 py-2 rounded-md transition-all text-sm ${filter === "webdev" ? "bg-background shadow-sm" : "bg-muted hover:bg-muted/80"}`}
             onClick={() => setFilter("webdev")}
