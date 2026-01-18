@@ -12,40 +12,7 @@ import hallBookingImage from '../public/hall-booking.jpg';
 import rfImage from "../public/rf-manager.jpg";
 
 const projects = [
-    {
-    title: "QN SARC diagram ",
-    description: "web page for the diagram with employees and projects ",
-    image: "/qn diag.png",
-    tags: ["ready to deploy","deploy on demand"],
-    type: "webdev for management",
-    driveUrl:"https://drive.google.com/file/d/1CtQ4389WUyydlL0zlIUUHrcs4YjeXqwZ/view?usp=sharing",
-  },
      {
-    title: "QN SARC management ",
-    description: "web application to mange the teams and the activities",
-    image: "/qn sarc manage.png",
-    tags: ["ready to deploy","deploy on demand"],
-    type: "webdev for management",
-    driveUrl:"https://drive.google.com/file/d/12Zv2KSahjSFV0B2E-VLOcVquFSCtz2mH/view?usp=sharing",
-
-  },
-       {
-    title: "Association Management System",
-    description: "system as web app for management the association and its data and activities ",
-    image: "/ad.png",
-    tags: ["ready to deploy","deploy on demand"],
-    type: "webdev for management",
-    driveUrl:"https://drive.google.com/file/d/1SnsiVNK2eufmgaIMjXNz4XxqsVpbaqoL/view?usp=sharing",
-  },
-   {
-    title: "Hospital Management System",
-    description: "system as web app for management the hospital and its data and operations",
-    image: "/hm.png",
-    tags: ["ready to deploy","deploy on demand"],
-    type: "webdev for management",
-    driveUrl:"https://drive.google.com/file/d/1xzgCO4AeJ-bfEBNrgNSyVjkoCRVKZVcE/view?usp=sharing",
-  },
-  {
     title: "E-Commerce Platform Jawad store",
     description: "Jawad E-commerce Site Explore our products and enjoy shopping!",
     image: storeImage,
@@ -71,23 +38,7 @@ const projects = [
     demoUrl: "https://sop4rf.netlify.app/",
     githubUrl: "https://github.com/JawadHalawa/sop4rf.git",
     type: "webdev for telecom",
-  },
-  {
-    title: "heating material project",
-    description: "produce heating materials for the village",
-    image: "/hmp.jpg",
-    tags: ["project management","Shams Al-Golan","For All project files on deman"],
-    type: "webdev for management",
-    driveUrl: "https://drive.google.com/file/d/1xJdX13q7v3XyfzauIE7jlCaZWCPisC_h/view?usp=sharing",
-  },
-   {
-    title: "water bottling plant project",
-    description: "A drinking water bottling plant in Quneitra ",
-    image: "/wbpp.jpg",
-    tags: ["project management", "SARC","for all project files on demand"],
-    type: "webdev for management",
-    driveUrl: "https://drive.google.com/file/d/1VLPjZz3bX6MSMXEUpvjG6TYOYD0OMa3n/view?usp=sharing",
-  },
+  }
 ];
 
 export function Projects() {
