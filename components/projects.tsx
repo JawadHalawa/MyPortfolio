@@ -21,14 +21,6 @@ const projects = [
     githubUrl: "https://github.com/JawadHalawa/jawad_store.git",
     type: "webdev",
   },
-        {
-    title: "Hospital Management System",
-    description: "system in web app for management the hospital and its data and operations",
-    image: "/hm.png",
-    tags: ["ready to deploy","deploy on demand"],
-    type: "webdev for management",
-    driveUrl:"https://drive.google.com/file/d/1xzgCO4AeJ-bfEBNrgNSyVjkoCRVKZVcE/view?usp=sharing",
-  },
   {
     title: "Hall Booking Platform",
     description: "Our App Explores Great Halls & Services In Bahrain In Jordan",
